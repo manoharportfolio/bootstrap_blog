@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bootstrap Blog</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MyBlog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Blog Section -->
+  <div class="container my-5">
+    <h1 class="text-center mb-4">Latest Blog Posts</h1>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/600x400/?coding" class="card-img-top" alt="Blog Image">
+          <div class="card-body">
+            <h5 class="card-title">The Art of Web Design</h5>
+            <p class="card-text">Discover how simplicity and balance make a website stand out from the crowd.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/600x400/?technology" class="card-img-top" alt="Blog Image">
+          <div class="card-body">
+            <h5 class="card-title">Future of Tech</h5>
+            <p class="card-text">A glimpse into emerging technologies shaping our digital tomorrow.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/600x400/?startup" class="card-img-top" alt="Blog Image">
+          <div class="card-body">
+            <h5 class="card-title">Startup Growth Hacks</h5>
+            <p class="card-text">Practical strategies to turn your idea into a thriving digital business.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2025 MyBlog | Follow us:
+      <a href="https://github.com/manoharportfolio/" class="text-info text-decoration-none">GitHub</a> •
+      <a href="https://www.instagram.com/gmanohar.world/" class="text-info text-decoration-none">Instagram</a> •
+      <a href="https://www.linkedin.com/in/gollamanohar/" class="text-info text-decoration-none">LinkedIn</a>
+    </p>
+  </footer>
+
+</body>
+</html>
+
